@@ -25,14 +25,14 @@ console.log(number)
 
 let isSummer = true
 console.log(isSummer)
-let Monday = false
-console.log(Monday)
-let Disney = null
-console.log(Disney)
+let monday = false
+console.log(monday)
+let disney = null
+console.log(disney)
 let abecedario = undefined
 console.log(abecedario)
 
-let teddy = {type:"bear", color:"Purple", size:"small"};
+let teddy = {type:"bear", color:"purple", size:"small"};
 console.log(teddy)
 let teddys = ["bear","dog","cat","lion"]
 console.log(teddys)
@@ -41,8 +41,8 @@ console.log(teddys)
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
 
 //Escribe tu código aquí
-const Postre =["helado","tarta","pastel"]
-console.log(Postre)
+const postre =["helado","tarta","pastel"]
+console.log(postre)
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
@@ -121,8 +121,9 @@ console.log(i<j)
 let num1 = 15
 let num2 = 20
 
-let comparision = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
-console.log(num1<num2)
+//Realiza la operación de comparación que consideres para que el resultado en consola sea true
+let comparision = num1<num2
+console.log(comparision)
 
 //Ejercicio 13: completa el ejercicio
 
@@ -158,7 +159,7 @@ let b = 3;
 let res =  a < 10 && b > 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res)
 
-let res2 = a < 10 || b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
+let res2 = a < 10 && b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
 console.log(res2)
 
 let res3 = a == 5 && b == 5 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
@@ -167,7 +168,7 @@ console.log(res3)
 let res4 = a == 6 == b == 0 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res4)
 
-let res5 = a == 0 && b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+let res5 = a == 0 || b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res5)
 
 let res6 = a == 6 == b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
