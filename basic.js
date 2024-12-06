@@ -56,9 +56,9 @@ console.log(coder)
 //Escribe tu código aquí
 console.log(typeof name)
 console.log(typeof number)
-console.log(typeof isSumer)
-console.log(typeof Monday)
-console.log(typeof Disney)
+console.log(typeof isSummer)
+console.log(typeof monday)
+console.log(typeof disney)
 console.log(typeof abecedario)
 console.log(typeof teddy)
 
